@@ -1,0 +1,14 @@
+.cartLabelStyles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    column-gap: 0.7rem;
+    
+    /* cursor: 'pointer' */
+}
+
+.cart-items-container{
+    background-color: lightgray;
+    
+}
