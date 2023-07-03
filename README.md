@@ -1,6 +1,8 @@
-# Schopp-Simple-Ecommerce-React-App
+# Schopp-Simple-Responsive-Ecommerce-React-App
 
-## A simple e-commerce application which allows users to view, add and remove products to/from cart.
+## A simple responsive e-commerce application which allows users to view, add and remove products to/from cart.
+
+![Screenshot](Desktop_view.png)
 
 ### Technologies used:
 - React.js
