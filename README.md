@@ -6,6 +6,6 @@
 - React.js
 - Context API
 - Axios API
-- [Products API](https://dummyjson.com/docs/products).([Read the documentation for this API](https://dummyjson.com/docs/products))
+- [Products API](https://dummyjson.com/docs/products). ([Read the documentation for this API](https://dummyjson.com/docs/products))
 - Tailwind CSS
 - Local Storage
