@@ -25,8 +25,8 @@ stages:
           npm run build
         displayName: 'npm install and build'
       
-  - stage: Push To Build Artifact
-    displayName: Push To Build Artifact stage
+  - stage: PushBuildArtifact
+    displayName: PushBuildArtifactStage
     jobs:
     - job: push
       steps:
