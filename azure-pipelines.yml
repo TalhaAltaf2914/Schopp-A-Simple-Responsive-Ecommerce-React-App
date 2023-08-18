@@ -37,7 +37,7 @@ stages:
           publishLocation: 'Container'
           MaxArtifactSize: 5
   
-  - stage: Development Deployment
+  - stage: DevelopmentDeployment
     displayName: DeployDevelopmentStage
     jobs:
     - deployment: DeploymentDevelopmentJob
@@ -45,7 +45,7 @@ stages:
         vmImage: ubuntu-latest
       environment: Development Environment
   
-  - stage: Test Deployment
+  - stage: TestDeployment
     displayName: DeployTestStage
     jobs:
     - deployment: TestDevelopmentJob
