@@ -27,7 +27,6 @@ stages:
       
   - stage: Push To Build Artifact
     displayName: Push To Build Artifact stage
-    steps:
       - task: PublishBuildArtifacts@1
         inputs:
           PathtoPublish: '$(Build.ArtifactStagingDirectory)'
