@@ -38,7 +38,7 @@ stages:
           MaxArtifactSize: 5
   
   - stage: Development Deployment
-    displayName: Deploy to development stage
+    displayName: DeployDevelopmentStage
     jobs:
     - deployment: DeploymentDevelopmentJob
       pool:
@@ -46,7 +46,7 @@ stages:
       environment: Development Environment
   
   - stage: Test Deployment
-    displayName: Deploy to test stage
+    displayName: DeployTestStage
     jobs:
     - deployment: TestDevelopmentJob
       pool:
@@ -54,7 +54,7 @@ stages:
       environment: Test Environment
 
   - stage: Deployment
-    displayName: Deploy to deployment stage
+    displayName: DeployDeploymentStage
     jobs:
     - deployment: TestDeploymentJob
       pool:
